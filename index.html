@@ -1,80 +1,132 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./css/global.css">
     <title>Portfolio Creator 5</title>
 </head>
 <body>
-    <header class="container ">
+    <header class="container">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand" href="/">
-                <img src="./assets/images/logo.svg" alt="">
-              </a>
+              <a class="navbar-brand" href="/"><img src="./assets/images/logo.svg" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link text-primary" aria-current="page" href="#">About</a>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">About</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Services</a>
                   </li>
-
-                 <li class="nav-item">
+                  <li class="nav-item">
                     <a class="nav-link" href="#">Projects</a>
-                    </li>
-
-                 <li class="nav-item">
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#">Blogs</a>
-                    </li>
-
-                 <li class="nav-item">
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#">Book a call <img src="" alt=""></a>
-                    </li>
-
+                  </li>
                 </ul>
-               
-              </div>
+               </div>
             </div>
-          </nav>   
+          </nav>
     </header>
-
     <section class="introduction container">
-        
       <div class="row">
+        
         <div class="intro-left col-12 col-md-6">
-            <h1><span>I design products </span> <br>
-             that delight and <br>
-             inspire people
-            </h1>
+          <h1 class=""> <span>I desing products</span> <br> 
+          that delight and <br>
+          inspire people
+          </h1>
+          <article>
+            Hi! I’m Jake, a product designer based in Berlin. I create user-friendly interfaces for fast-growing startups.
+          </article>
+
+            <div class="book">
+              <a href=""class="call">Book a call</a>
+              <a href=""class="cv">Dowload CV <img src="./assets/images/arrow.svg" alt=""></a>
+            </div>
+         
         </div>
-
-        <div class="intro-right col-12 col-md-6">
-            <img src="./assets/images/adam.svg" alt="" class="w-100">
-        </div>
-     </div>  
-
-
-
-
       
-
-       
+      
+      <div class="intro-right col-12 col-md-6">
+        <img src="./assets/images/man.svg" alt="" class="w-100">
+      </div> 
+      
+    </div>
     </section>
 
 
+    <section id="partnyorlar">
+      <h6>Trusted By</h6>
+      <div class="sirketler">
+        <img src="./assets/images/sirketler/sirketler1.svg" alt="">
+        <img src="./assets/images/sirketler/sirketler2.svg" alt="">
+        <img src="./assets/images/sirketler/sirketler3.svg" alt="">
+        <img src="./assets/images/sirketler/sirketler4.svg" alt="">
+      </div>
 
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
-    <!-- Oz Javascript kodlarin burda olacaq -->
-    <!-- <script src="./script.js"></script> -->
+    <section class="services-section container">
+      <h6>Services</h6>
+      <h2>Desing that solves problems, <br> one product at a time.</h2>
+      <div class="cards">
 
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="./assets/images/services/services1.svg" alt="">
+                <h5>What I can do for you</h5>
+                <article>Faster, better products that your users love. Here's all the services I provide:</article>
+                <ul>
+                  <li>Design Strategy</li>
+                  <li>Web and Mobile App Design</li>
+                  <li>Front-end Development</li>
+                </ul>
+            </div>
+          </div>
 
- 
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="./assets/images/services/services2.svg" alt="">
+                <h5>Applications I'm fluent in</h5>
+                <article>Every designer needs the right tools to do the perfect job. Thankfully, I'm multilingual.</article>
+                <ul>
+                  <li>Sketch</li>
+                  <li>Webflow</li>
+                  <li>Figma</li>
+                </ul>
+            </div> 
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="./assets/images/services/services3.svg" alt="">
+                <h5>What you can expect</h5>
+                <article>I design products that are more than pretty. I make them shippable and usable.</article>
+                <ul>
+                  <li>Clean and functional</li>
+                  <li>Device and user friendly</li>
+                  <li>Efficient and maintainable</li>
+                </ul>
+            </div>
+          </div>
+
+        </div>
+        
+       
+        
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
